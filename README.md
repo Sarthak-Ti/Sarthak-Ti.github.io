@@ -45,7 +45,7 @@ The fresh clone opens on `main`, where the website is maintained. No pull reques
 3. In the repository's **Settings → Pages**, verify that the publishing source is the desired branch and `/ (root)` folder if using branch-based publishing.
 4. Wait for the Pages deployment to finish, then check the published site.
 
-The existing `CNAME` file contains `rthak.tech` and was preserved. Confirm that you still own and intend to use that domain before publishing; its DNS configuration has not been verified. If you want only the default `sarthak-ti.github.io` address, remove the custom domain from Pages settings and the `CNAME` file as part of that change.
+The site uses the free address https://sarthak-ti.github.io/ with no custom domain. Keep the **Custom domain** field empty in Pages settings and do not add a `CNAME` file unless you are connecting a domain you own. A custom domain can be added later without changing the website design.
 
 GitHub instructions: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 
