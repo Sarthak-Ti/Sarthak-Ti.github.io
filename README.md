@@ -27,7 +27,7 @@ Publication entries are maintained locally. Google Scholar links point to your l
 
 ## Work with Codex
 
-Use this repository folder as a local project in Codex. The normal workflow is: make changes on a branch, preview locally, review the diff, then publish when ready.
+Use this repository folder as a local project in Codex. The workflow for this site is: make changes on `main`, preview locally, review the diff, then commit and push when ready.
 
 For a fresh clone on another computer with Git installed:
 
@@ -36,12 +36,12 @@ git clone https://github.com/Sarthak-Ti/Sarthak-Ti.github.io.git
 cd Sarthak-Ti.github.io
 ```
 
-To continue work on the website branch after cloning, run `git switch codex/research-website`.
+The fresh clone opens on `main`, where the website is maintained. No pull request is required for this workflow.
 
 ## Publish on GitHub Pages
 
-1. Review the draft biography and affiliation, and replace the portrait placeholder.
-2. Commit the reviewed files on your branch, push the branch, and merge it into the branch used by GitHub Pages (normally `main`).
+1. Preview and review your changes. The draft biography and portrait placeholder can be replaced whenever you are ready.
+2. Commit the reviewed files on `main` and run `git push origin main`.
 3. In the repository's **Settings → Pages**, verify that the publishing source is the desired branch and `/ (root)` folder if using branch-based publishing.
 4. Wait for the Pages deployment to finish, then check the published site.
 

@@ -28,7 +28,9 @@ nav a { text-decoration: none; padding-block: 10px; }
 .hero { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 56px; padding-block: 32px; align-items: center; }
 h1 { font: 400 52px/1.1 var(--serif); letter-spacing: -2px; margin-bottom: 12px; }
 .affiliation { font-size: 14px; line-height: 1.6; font-weight: 600; }
-.affiliation span { color: var(--muted); font-weight: 400; }
+.affiliation span { display: block; color: var(--muted); font-weight: 400; }
+.affiliation .role-title { color: var(--ink); font-size: 22px; font-weight: 600; line-height: 1.4; margin-bottom: 3px; }
+.affiliation .labs { color: var(--ink); font-size: 15px; }
 .intro { margin-top: 18px; max-width: 680px; font-size: 17px; line-height: 1.65; }
 .profile-links { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; margin-top: 18px; font-size: 14px; }
 .profile-links a { color: var(--accent); }
@@ -71,6 +73,8 @@ summary:hover { color: var(--accent); }
   .hero-copy { display: contents; }
   h1 { grid-column: 1; grid-row: 1; font-size: clamp(29px, 7.5vw, 40px); line-height: 1.13; letter-spacing: -1px; margin: 0; }
   .affiliation { grid-column: 1; grid-row: 2; font-size: 12px; }
+  .affiliation .role-title { font-size: 20px; }
+  .affiliation .labs { font-size: 13px; }
   .portrait { grid-column: 2; grid-row: 1 / 3; align-self: start; }
   .intro { grid-column: 1 / -1; grid-row: 3; margin: 3px 0 0; font-size: 15px; line-height: 1.65; }
   .profile-links { grid-column: 1 / -1; grid-row: 4; margin: 0; gap: 20px; font-size: 13px; }
