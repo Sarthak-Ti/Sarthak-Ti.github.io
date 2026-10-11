@@ -25,6 +25,8 @@ p, h1, h2, h3, figure { margin: 0; }
 .wordmark { font: bold 32px/1 var(--serif); letter-spacing: -2px; text-decoration: none; padding-bottom: 5px; }
 nav { display: flex; gap: 26px; font-size: 14px; }
 nav a { text-decoration: none; padding-block: 10px; }
+.setlog-link { display: inline-flex; align-items: center; justify-content: center; width: 36px; min-height: 44px; color: var(--muted); border-radius: 4px; }
+.setlog-link:hover, .setlog-link:focus-visible { color: var(--accent); background: var(--surface); }
 .hero { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 56px; padding-block: 32px; align-items: center; }
 h1 { font: 400 52px/1.1 var(--serif); letter-spacing: -2px; margin-bottom: 12px; }
 .affiliation { font-size: 14px; line-height: 1.6; font-weight: 600; }
